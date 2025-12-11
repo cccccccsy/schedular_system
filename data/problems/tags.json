@@ -1,0 +1,202 @@
+{
+  "tags": [
+    {
+      "id": "array",
+      "name": "数组",
+      "name_en": "Array",
+      "category": "data-structure",
+      "weight": 1.0,
+      "difficulty_multiplier": 1.0,
+      "description": "数组相关问题，包括查找、排序、双指针等"
+    },
+    {
+      "id": "string",
+      "name": "字符串",
+      "name_en": "String",
+      "category": "data-structure",
+      "weight": 1.0,
+      "difficulty_multiplier": 1.0,
+      "description": "字符串操作、模式匹配、字符串处理"
+    },
+    {
+      "id": "hash-table",
+      "name": "哈希表",
+      "name_en": "Hash Table",
+      "category": "data-structure",
+      "weight": 1.1,
+      "difficulty_multiplier": 1.1,
+      "description": "使用哈希表快速查找和存储"
+    },
+    {
+      "id": "linked-list",
+      "name": "链表",
+      "name_en": "Linked List",
+      "category": "data-structure",
+      "weight": 1.1,
+      "difficulty_multiplier": 1.15,
+      "description": "链表操作、反转、合并、环检测"
+    },
+    {
+      "id": "tree",
+      "name": "树",
+      "name_en": "Tree",
+      "category": "data-structure",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.25,
+      "description": "二叉树、N叉树、树的遍历和操作"
+    },
+    {
+      "id": "binary-tree",
+      "name": "二叉树",
+      "name_en": "Binary Tree",
+      "category": "data-structure",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.25,
+      "description": "二叉树相关问题"
+    },
+    {
+      "id": "stack",
+      "name": "栈",
+      "name_en": "Stack",
+      "category": "data-structure",
+      "weight": 1.0,
+      "difficulty_multiplier": 1.1,
+      "description": "使用栈解决问题，括号匹配、单调栈等"
+    },
+    {
+      "id": "matrix",
+      "name": "矩阵",
+      "name_en": "Matrix",
+      "category": "data-structure",
+      "weight": 1.1,
+      "difficulty_multiplier": 1.2,
+      "description": "二维数组、矩阵操作"
+    },
+    {
+      "id": "dynamic-programming",
+      "name": "动态规划",
+      "name_en": "Dynamic Programming",
+      "category": "algorithm",
+      "weight": 1.5,
+      "difficulty_multiplier": 1.4,
+      "description": "动态规划问题，状态转移、最优子结构"
+    },
+    {
+      "id": "depth-first-search",
+      "name": "深度优先搜索",
+      "name_en": "DFS",
+      "category": "algorithm",
+      "weight": 1.3,
+      "difficulty_multiplier": 1.3,
+      "description": "深度优先搜索算法"
+    },
+    {
+      "id": "breadth-first-search",
+      "name": "广度优先搜索",
+      "name_en": "BFS",
+      "category": "algorithm",
+      "weight": 1.3,
+      "difficulty_multiplier": 1.3,
+      "description": "广度优先搜索算法"
+    },
+    {
+      "id": "backtracking",
+      "name": "回溯",
+      "name_en": "Backtracking",
+      "category": "algorithm",
+      "weight": 1.4,
+      "difficulty_multiplier": 1.35,
+      "description": "回溯算法，排列组合、剪枝优化"
+    },
+    {
+      "id": "two-pointers",
+      "name": "双指针",
+      "name_en": "Two Pointers",
+      "category": "algorithm",
+      "weight": 1.1,
+      "difficulty_multiplier": 1.15,
+      "description": "双指针技巧，快慢指针、对撞指针"
+    },
+    {
+      "id": "sliding-window",
+      "name": "滑动窗口",
+      "name_en": "Sliding Window",
+      "category": "algorithm",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.25,
+      "description": "滑动窗口技巧，子串、子数组问题"
+    },
+    {
+      "id": "binary-search",
+      "name": "二分查找",
+      "name_en": "Binary Search",
+      "category": "algorithm",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.2,
+      "description": "二分查找算法及其变种"
+    },
+    {
+      "id": "sorting",
+      "name": "排序",
+      "name_en": "Sorting",
+      "category": "algorithm",
+      "weight": 1.0,
+      "difficulty_multiplier": 1.1,
+      "description": "各种排序算法及应用"
+    },
+    {
+      "id": "recursion",
+      "name": "递归",
+      "name_en": "Recursion",
+      "category": "technique",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.25,
+      "description": "递归思想和应用"
+    },
+    {
+      "id": "math",
+      "name": "数学",
+      "name_en": "Math",
+      "category": "technique",
+      "weight": 1.1,
+      "difficulty_multiplier": 1.15,
+      "description": "数学相关问题"
+    },
+    {
+      "id": "bit-manipulation",
+      "name": "位运算",
+      "name_en": "Bit Manipulation",
+      "category": "technique",
+      "weight": 1.2,
+      "difficulty_multiplier": 1.3,
+      "description": "位运算技巧"
+    },
+    {
+      "id": "union-find",
+      "name": "并查集",
+      "name_en": "Union Find",
+      "category": "data-structure",
+      "weight": 1.4,
+      "difficulty_multiplier": 1.35,
+      "description": "并查集数据结构"
+    },
+    {
+      "id": "divide-and-conquer",
+      "name": "分治",
+      "name_en": "Divide and Conquer",
+      "category": "algorithm",
+      "weight": 1.3,
+      "difficulty_multiplier": 1.3,
+      "description": "分治算法思想"
+    },
+    {
+      "id": "memoization",
+      "name": "记忆化",
+      "name_en": "Memoization",
+      "category": "technique",
+      "weight": 1.3,
+      "difficulty_multiplier": 1.25,
+      "description": "记忆化优化技巧"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "problems": [
+    {
+      "id": "1",
+      "platform": "leetcode",
+      "number": 1,
+      "title": "Two Sum",
+      "title_cn": "两数之和",
+      "difficulty": "easy",
+      "tags": ["array", "hash-table"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.49,
+      "frequency": 0.95,
+      "companies": ["amazon", "google", "microsoft", "apple"],
+      "url": "https://leetcode.com/problems/two-sum/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "patterns": ["hash-map-lookup"],
+        "prerequisites": [],
+        "follow_ups": ["15", "18"]
+      }
+    },
+    {
+      "id": "2",
+      "platform": "leetcode",
+      "number": 2,
+      "title": "Add Two Numbers",
+      "title_cn": "两数相加",
+      "difficulty": "medium",
+      "tags": ["linked-list", "math", "recursion"],
+      "estimated_time": 25,
+      "acceptance_rate": 0.38,
+      "frequency": 0.85,
+      "companies": ["amazon", "microsoft", "bloomberg"],
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "metadata": {
+        "time_complexity": "O(max(m,n))",
+        "space_complexity": "O(max(m,n))",
+        "patterns": ["linked-list-traversal"],
+        "prerequisites": [],
+        "follow_ups": ["445"]
+      }
+    },
+    {
+      "id": "3",
+      "platform": "leetcode",
+      "number": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "title_cn": "无重复字符的最长子串",
+      "difficulty": "medium",
+      "tags": ["string", "hash-table", "sliding-window"],
+      "estimated_time": 30,
+      "acceptance_rate": 0.33,
+      "frequency": 0.90,
+      "companies": ["amazon", "google", "facebook", "microsoft"],
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(min(m,n))",
+        "patterns": ["sliding-window"],
+        "prerequisites": [],
+        "follow_ups": ["159", "340"]
+      }
+    },
+    {
+      "id": "15",
+      "platform": "leetcode",
+      "number": 15,
+      "title": "3Sum",
+      "title_cn": "三数之和",
+      "difficulty": "medium",
+      "tags": ["array", "two-pointers", "sorting"],
+      "estimated_time": 35,
+      "acceptance_rate": 0.32,
+      "frequency": 0.88,
+      "companies": ["amazon", "google", "microsoft"],
+      "url": "https://leetcode.com/problems/3sum/",
+      "metadata": {
+        "time_complexity": "O(n^2)",
+        "space_complexity": "O(log n)",
+        "patterns": ["two-pointers"],
+        "prerequisites": ["1"],
+        "follow_ups": ["16", "18"]
+      }
+    },
+    {
+      "id": "20",
+      "platform": "leetcode",
+      "number": 20,
+      "title": "Valid Parentheses",
+      "title_cn": "有效的括号",
+      "difficulty": "easy",
+      "tags": ["string", "stack"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.40,
+      "frequency": 0.92,
+      "companies": ["amazon", "microsoft", "facebook", "google"],
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "patterns": ["stack"],
+        "prerequisites": [],
+        "follow_ups": ["22", "32"]
+      }
+    },
+    {
+      "id": "21",
+      "platform": "leetcode",
+      "number": 21,
+      "title": "Merge Two Sorted Lists",
+      "title_cn": "合并两个有序链表",
+      "difficulty": "easy",
+      "tags": ["linked-list", "recursion"],
+      "estimated_time": 20,
+      "acceptance_rate": 0.61,
+      "frequency": 0.87,
+      "companies": ["amazon", "microsoft", "apple"],
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+      "metadata": {
+        "time_complexity": "O(m+n)",
+        "space_complexity": "O(1)",
+        "patterns": ["linked-list-merge"],
+        "prerequisites": [],
+        "follow_ups": ["23", "88"]
+      }
+    },
+    {
+      "id": "53",
+      "platform": "leetcode",
+      "number": 53,
+      "title": "Maximum Subarray",
+      "title_cn": "最大子数组和",
+      "difficulty": "medium",
+      "tags": ["array", "dynamic-programming", "divide-and-conquer"],
+      "estimated_time": 25,
+      "acceptance_rate": 0.49,
+      "frequency": 0.86,
+      "companies": ["amazon", "microsoft", "linkedin"],
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["kadane-algorithm", "dynamic-programming"],
+        "prerequisites": [],
+        "follow_ups": ["152", "918"]
+      }
+    },
+    {
+      "id": "70",
+      "platform": "leetcode",
+      "number": 70,
+      "title": "Climbing Stairs",
+      "title_cn": "爬楼梯",
+      "difficulty": "easy",
+      "tags": ["math", "dynamic-programming", "memoization"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.51,
+      "frequency": 0.84,
+      "companies": ["amazon", "google", "microsoft"],
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["fibonacci", "dynamic-programming"],
+        "prerequisites": [],
+        "follow_ups": ["746", "509"]
+      }
+    },
+    {
+      "id": "121",
+      "platform": "leetcode",
+      "number": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "title_cn": "买卖股票的最佳时机",
+      "difficulty": "easy",
+      "tags": ["array", "dynamic-programming"],
+      "estimated_time": 20,
+      "acceptance_rate": 0.54,
+      "frequency": 0.89,
+      "companies": ["amazon", "facebook", "microsoft", "bloomberg"],
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["one-pass"],
+        "prerequisites": [],
+        "follow_ups": ["122", "123", "188"]
+      }
+    },
+    {
+      "id": "200",
+      "platform": "leetcode",
+      "number": 200,
+      "title": "Number of Islands",
+      "title_cn": "岛屿数量",
+      "difficulty": "medium",
+      "tags": ["array", "depth-first-search", "breadth-first-search", "union-find", "matrix"],
+      "estimated_time": 30,
+      "acceptance_rate": 0.56,
+      "frequency": 0.91,
+      "companies": ["amazon", "facebook", "google", "microsoft"],
+      "url": "https://leetcode.com/problems/number-of-islands/",
+      "metadata": {
+        "time_complexity": "O(M*N)",
+        "space_complexity": "O(M*N)",
+        "patterns": ["dfs", "bfs", "union-find"],
+        "prerequisites": [],
+        "follow_ups": ["695", "547"]
+      }
+    },
+    {
+      "id": "206",
+      "platform": "leetcode",
+      "number": 206,
+      "title": "Reverse Linked List",
+      "title_cn": "反转链表",
+      "difficulty": "easy",
+      "tags": ["linked-list", "recursion"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.71,
+      "frequency": 0.93,
+      "companies": ["amazon", "microsoft", "apple", "google"],
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["linked-list-reversal"],
+        "prerequisites": [],
+        "follow_ups": ["92", "25"]
+      }
+    },
+    {
+      "id": "300",
+      "platform": "leetcode",
+      "number": 300,
+      "title": "Longest Increasing Subsequence",
+      "title_cn": "最长递增子序列",
+      "difficulty": "medium",
+      "tags": ["array", "binary-search", "dynamic-programming"],
+      "estimated_time": 35,
+      "acceptance_rate": 0.51,
+      "frequency": 0.82,
+      "companies": ["amazon", "microsoft", "google"],
+      "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+      "metadata": {
+        "time_complexity": "O(n log n)",
+        "space_complexity": "O(n)",
+        "patterns": ["dynamic-programming", "binary-search"],
+        "prerequisites": [],
+        "follow_ups": ["334", "354"]
+      }
+    },
+    {
+      "id": "46",
+      "platform": "leetcode",
+      "number": 46,
+      "title": "Permutations",
+      "title_cn": "全排列",
+      "difficulty": "medium",
+      "tags": ["array", "backtracking"],
+      "estimated_time": 30,
+      "acceptance_rate": 0.74,
+      "frequency": 0.85,
+      "companies": ["amazon", "microsoft", "facebook"],
+      "url": "https://leetcode.com/problems/permutations/",
+      "metadata": {
+        "time_complexity": "O(n!)",
+        "space_complexity": "O(n)",
+        "patterns": ["backtracking"],
+        "prerequisites": [],
+        "follow_ups": ["47", "784"]
+      }
+    },
+    {
+      "id": "78",
+      "platform": "leetcode",
+      "number": 78,
+      "title": "Subsets",
+      "title_cn": "子集",
+      "difficulty": "medium",
+      "tags": ["array", "backtracking", "bit-manipulation"],
+      "estimated_time": 25,
+      "acceptance_rate": 0.73,
+      "frequency": 0.83,
+      "companies": ["amazon", "facebook", "google"],
+      "url": "https://leetcode.com/problems/subsets/",
+      "metadata": {
+        "time_complexity": "O(2^n)",
+        "space_complexity": "O(n)",
+        "patterns": ["backtracking"],
+        "prerequisites": [],
+        "follow_ups": ["90", "320"]
+      }
+    },
+    {
+      "id": "141",
+      "platform": "leetcode",
+      "number": 141,
+      "title": "Linked List Cycle",
+      "title_cn": "环形链表",
+      "difficulty": "easy",
+      "tags": ["hash-table", "linked-list", "two-pointers"],
+      "estimated_time": 20,
+      "acceptance_rate": 0.48,
+      "frequency": 0.88,
+      "companies": ["amazon", "microsoft", "apple"],
+      "url": "https://leetcode.com/problems/linked-list-cycle/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["floyd-cycle-detection"],
+        "prerequisites": [],
+        "follow_ups": ["142", "287"]
+      }
+    },
+    {
+      "id": "104",
+      "platform": "leetcode",
+      "number": 104,
+      "title": "Maximum Depth of Binary Tree",
+      "title_cn": "二叉树的最大深度",
+      "difficulty": "easy",
+      "tags": ["tree", "depth-first-search", "breadth-first-search", "binary-tree"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.74,
+      "frequency": 0.86,
+      "companies": ["amazon", "microsoft", "linkedin"],
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(h)",
+        "patterns": ["dfs", "bfs"],
+        "prerequisites": [],
+        "follow_ups": ["111", "559"]
+      }
+    },
+    {
+      "id": "226",
+      "platform": "leetcode",
+      "number": 226,
+      "title": "Invert Binary Tree",
+      "title_cn": "翻转二叉树",
+      "difficulty": "easy",
+      "tags": ["tree", "depth-first-search", "breadth-first-search", "binary-tree"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.73,
+      "frequency": 0.84,
+      "companies": ["google", "amazon", "microsoft"],
+      "url": "https://leetcode.com/problems/invert-binary-tree/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(h)",
+        "patterns": ["dfs"],
+        "prerequisites": [],
+        "follow_ups": []
+      }
+    },
+    {
+      "id": "242",
+      "platform": "leetcode",
+      "number": 242,
+      "title": "Valid Anagram",
+      "title_cn": "有效的字母异位词",
+      "difficulty": "easy",
+      "tags": ["hash-table", "string", "sorting"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.62,
+      "frequency": 0.87,
+      "companies": ["amazon", "microsoft", "facebook"],
+      "url": "https://leetcode.com/problems/valid-anagram/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["hash-table"],
+        "prerequisites": [],
+        "follow_ups": ["49", "438"]
+      }
+    },
+    {
+      "id": "268",
+      "platform": "leetcode",
+      "number": 268,
+      "title": "Missing Number",
+      "title_cn": "丢失的数字",
+      "difficulty": "easy",
+      "tags": ["array", "hash-table", "math", "binary-search", "bit-manipulation", "sorting"],
+      "estimated_time": 15,
+      "acceptance_rate": 0.60,
+      "frequency": 0.81,
+      "companies": ["amazon", "microsoft"],
+      "url": "https://leetcode.com/problems/missing-number/",
+      "metadata": {
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "patterns": ["math", "bit-manipulation"],
+        "prerequisites": [],
+        "follow_ups": ["287", "448"]
+      }
+    },
+    {
+      "id": "322",
+      "platform": "leetcode",
+      "number": 322,
+      "title": "Coin Change",
+      "title_cn": "零钱兑换",
+      "difficulty": "medium",
+      "tags": ["array", "dynamic-programming", "breadth-first-search"],
+      "estimated_time": 35,
+      "acceptance_rate": 0.41,
+      "frequency": 0.89,
+      "companies": ["amazon", "facebook", "google"],
+      "url": "https://leetcode.com/problems/coin-change/",
+      "metadata": {
+        "time_complexity": "O(amount * n)",
+        "space_complexity": "O(amount)",
+        "patterns": ["dynamic-programming"],
+        "prerequisites": [],
+        "follow_ups": ["518", "983"]
+      }
+    }
+  ]
+}
