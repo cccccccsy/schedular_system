@@ -15,6 +15,14 @@ from datetime import date, timedelta
 
 from .priority_calculator import PriorityCalculator, Problem, UserProfile
 
+"""
+快速调度器
+
+核心思想：
+1. 按优先级排序所有题目（O(n log n)）
+2. 顺序填充每天的时间槽（O(n)）
+3. 不做复杂优化，只保证基本约束
+"""
 
 @dataclass
 class DaySchedule:
